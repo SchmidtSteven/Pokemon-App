@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.appContainer {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.appTitle {
+  text-align: center;
+}
+
+.pokemonContainer {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  width: 100%;
+}
+
+.button {
+  background-color: aquamarine;
+  border: unset;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
